@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div id="external-wrapper">
+        <id class='wrapper-lvl-one' id="wrapper-one">
+            <div id="printspace">
+
+                <div id="logodiv">
+                    <img src="media/yashlogoalphatwo.png" alt="">
+                </div>
+
+                <div id="client-div">
+                    <p id="client-name">Nihar Hodawadekar</p>
+                    <p>Client ID: <span id="client-id">00002</span></p>
+                    <p id="client-address">Lorem ipsum d elit. Quia, repellendus optio culpa quis eaque mollitia.</p>
+                    <p id="client-phone">9999999999</p>
+                </div>
+
+                <div id="table-div">
+                    <div id="table">
+                        <div class="cell-h cell cell-1">#</div>
+                        <div class="cell-h cell cell-2">Item name</div>
+                        <div class="cell-h cell cell-3">Price</div>
+                        <div class="cell-h cell cell-4">Qty</div>
+                        <div class="cell-h cell cell-5">Disc</div>
+                        <div class="cell-h cell cell-6">Total</div>
+
+                        <div contenteditable class="cell cell-1">1</div>
+                        <div contenteditable class="cell cell-2">Website Redesign lsafifhdufh</div>
+                        <div contenteditable class="cell cell-3">1000</div>
+                        <div contenteditable class="cell cell-4">2</div>
+                        <div contenteditable class="cell cell-5">0</div>
+                        <div contenteditable class="cell cell-6">2000</div>
+
+                    </div>
+                    <div id="table-total">
+                        <div class="cell-h cell cell-1">0</div>
+                        <div class="cell-h cell cell-2">Total</div>
+                        <div class="cell-h cell cell-3">0</div>
+                        <div class="cell-h cell cell-4">0</div>
+                        <div class="cell-h cell cell-5">0</div>
+                        <div class="cell-h cell cell-6">0</div>
+                    </div>
+                </div>
+
+            </div>
+        </id>
+        <id class='wrapper-lvl-one' id="wrapper-two">
+            <div class="input-wrapper" id="input-wrapper-one">
+                <p>Client Details</p>
+                <input id="txt-input-one" class="txt-input" type="text" placeholder="Client Name">
+                <input id="txt-input-two" class="txt-input" type="number" maxlength="5" placeholder="Client ID">
+                <input id="txt-input-three" class="txt-input" type="text" placeholder="Address">
+                <input id="txt-input-four" class="txt-input" type="number" placeholder="Phone Number">
+            </div>
+            <button onclick="addRow()">Add Row</button>
+            <button onclick="printStart()">Print</button>
+    </div>
+</body>
+</html>
